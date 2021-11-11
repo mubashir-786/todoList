@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main" >
+        <div class="picdiv">
+            <h1>TODO LIST</h1> 
+            <div class="pic"> <img src="./to-do-list.png" class="pix" alt=""></div>
+        </div>
+
+        <br>
+        <div class="three">
+            <div class="total" > TOTAL: <span id="total">0</span>  </div>
+            <div class="success" > SUCCESS: <span id="suc"></span></div>
+            <div class="pending">PENDING: <span id="pen"></span></div>
+        </div>
+        <br>
+        <br>
+        
+        
+        
+    <div class="nd">  
+    <input type="text" id="user" placeholder="Enter Todo Name" > 
+    <select name="dropdown" id="dropdown">
+        <option value="Low" id="lo">Low Priority</option>
+        <option value="Medium" id="me">Medium Priority</option>
+        <option value="High" id="hi">High Priority</option>
+    </select>
+    <button onclick="addTodo()" id="arrow"></button> 
+    </div> 
+    
+     <div>
+        <table id="list">
+
+        </table>
+      
+    </div>
+    <button class="clr" onclick="clr()">Clear All</button>
+</div>
+</body>
+<script src="./app.js"></script>
+</html>

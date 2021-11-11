@@ -1,0 +1,185 @@
+/* tr {
+    background-color: aqua;
+} */
+#editbtn {
+ background-image: url(./pencil\ \(1\).png) ;
+background-size: 100%;
+border: none;
+width: 25px;
+    height: 25px;
+    background-color: transparent;
+    
+}
+#dltbtn {
+ background-image: url(./bin.png) ;
+background-size: 100%;
+border: none;
+width: 25px;
+    height: 25px;
+  
+    background-color: transparent;
+}
+#donebtn {
+ background-image: url(./checked.png) ;
+background-size: 100%;
+border: none;
+width: 25px;
+    height: 25px;
+    background-color: transparent;
+    
+}
+body {
+    font-family: sans-serif;
+    background-color: rgb(39, 130, 172);
+}
+.main {
+    background-color: white;
+    width: 70%;
+    min-height: 80vh;
+    /* margin: auto; */
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+.three{
+    display: flex;
+    justify-content: space-around;
+}
+.total {
+    background-color: rgb(205, 205, 253);
+    color: blue;
+    font-weight: bolder;
+    padding: 5px;
+}
+.success {
+    background-color: rgb(188, 219, 188);
+    color: green;
+    font-weight: bolder;
+    padding: 5px;
+}
+.pending {
+    background-color: rgb(243, 222, 183);
+    color: rgb(230, 152, 9);
+    font-weight: bolder;
+    padding: 5px;
+}
+#user {
+    border: none;
+    /* border-bottom: 2px solid rgb(0, 162, 255); */
+    flex-grow: 2;
+    margin-left: 20px;
+    font-size: 20px;
+}
+#user:focus{
+    outline: none;
+}
+
+#arrow{
+    background-image: url(./right-arrow\ \(1\).png);
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border-bottom: 2px solid rgb(0, 162, 255); */
+margin-right: 10px;
+}
+.nd{
+   display: flex;
+   flex-direction: row;
+   border-bottom: 2px solid rgb(0, 162, 255);
+
+}
+#dropdown {
+    border: none;
+    /* border-bottom: 2px solid rgb(0, 162, 255); */
+    margin-right: 30px;
+    font-size: 20px;
+
+}
+#dropdown:focus{
+    outline: none;
+}
+#list{
+    width: 100%;
+    margin-top: 15px;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px ;
+    text-align: center;
+}
+td {
+    padding-top: 10px;
+    
+}
+#donbtn{
+    text-decoration: line-through;
+}
+.clr{
+    width: 93px;
+    height: 32px;
+    border: none;
+    color: red;
+    background-color: rgb(254, 226, 226);
+    font-weight: bolder;
+}
+.clr:hover{
+    color: red;
+    background-color: rgb(231, 171, 171);
+}
+#lo {
+    color: red;
+}
+#lo :focus{
+    color: red;
+}
+
+#me {
+    color: orange;
+}
+#hi {
+    color: green;
+}
+#loo {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+#hii{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+#mee{
+    width: 10px;
+    height: 10px;
+    background-color:orange;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.pix{
+    width: 68px;
+    height: 66px;
+    margin-right: 10px;
+    margin-top: 8px;
+
+    
+}
+
+.picdiv{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    display: flex;
+}
+.pic{
+    display: flex;
+}
