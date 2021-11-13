@@ -183,3 +183,98 @@ h1{
 .pic{
     display: flex;
 }
+@media screen and (min-width:250px) and (max-width:450px){
+    h1{
+        font-size: 20px;
+    }
+    .pix {
+        width: 49px;
+        height: 45px;
+        margin-right: 83px;
+        margin-top: 1px;
+    }
+
+    .three{
+        font-size: 12px;
+    }
+    #dropdown {
+        border: none;
+        
+        margin-right: -8px;
+        font-size: 10px;
+    }
+    #user {
+        border: none;
+       
+        flex-grow: 2;
+        margin-left: -2px;
+        font-size: 9px;
+    }
+    #arrow {
+        background-image: url(./right-arrow\ \(1\).png);
+        width: 40px;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #list {
+        width: 100%;
+        margin-top: 15px;
+        padding: 0px 20px 0px 20px;
+        font-size: 10px;
+        text-align: center;
+    }
+    #donebtn {
+        background-image: url(./checked.png);
+        background-size: 100%;
+        border: none;
+        width: 15px;
+        background-repeat: no-repeat;
+        height: 18px;
+        background-color: transparent;
+    }
+    #editbtn {
+        background-image: url(./pencil\ \(1\).png);
+        background-size: 100%;
+        border: none;
+        width: 15px;
+        height: 18px;
+        background-repeat: no-repeat;
+        background-color: transparent;
+    }
+    #dltbtn {
+        background-image: url(./bin.png);
+        background-size: 100%;
+        border: none;
+        width: 15px;
+        height: 18px;
+        background-repeat: no-repeat;
+        background-color: transparent;
+    }
+    #loo {
+        width: 5px;
+        height: 5px;
+        background-color: red;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 5px;
+    }
+    #mee {
+        width: 5px;
+        height: 5px;
+        background-color: orange;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 5px;
+    }
+    #hii {
+        width: 5px;
+        height: 5px;
+        background-color: green;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 5px;
+    }
+}
